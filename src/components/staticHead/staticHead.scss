@@ -1,0 +1,25 @@
+.static-head-main {
+  .static-head-block {
+    background: url(../../assets/images/campid-hero.png) no-repeat center;
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    h1 {
+      font-family: Fjalla One;
+      font-size: 50px;
+      font-weight: 400;
+      line-height: 1.24;
+      color: #fff;
+      @media (max-width: 499px) {
+        font-size: 24px;
+      }
+    }
+    .main-container {
+      width: 100%;
+      @media (max-width: 499px) {
+        text-align: center;
+      }
+    }
+  }
+}

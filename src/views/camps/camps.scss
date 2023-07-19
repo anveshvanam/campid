@@ -1,0 +1,248 @@
+.campsMainDiv {
+  display: flex;
+
+  .directorSidebarDiv {
+      width: 224px;
+
+      @media(max-width:767px) {
+          display: none;
+      }
+  }
+
+  .mobileSidebar {
+      display: none;
+  }
+
+  .mobileSidebarActive {
+      position: absolute;
+      z-index: 99;
+      height: 100vh;
+      width: 224px;
+      background: white;
+
+      @media(min-width:767px) {
+          display: none;
+      }
+  }
+
+  .directorRightSide {
+      width: calc(100% - 224px);
+
+      @media(max-width:767px) {
+          width: 100%;
+
+      }
+
+      .featuredCamps {
+          padding: 0 24px;
+          margin: 0 auto;
+          margin-bottom: 70px;
+
+          @media(max-width:767px) {
+              padding: 0 12px;
+              margin-bottom: 30px;
+          }
+      }
+
+      .campsLeft {
+          padding: 0 24px;
+          margin: 0 auto;
+          margin-top: 30px !important;
+
+          @media(max-width:767px) {
+              padding: 0 12px;
+          }
+
+          .campTop {
+              display: flex;
+              justify-content: space-between;
+              margin: 20px auto;
+              position: relative;
+
+              .campTopLeft {
+                  width: 80%;
+
+                  @media (max-width:499px) {
+                      width: 100%;
+                  }
+
+                  .yourCamps_postCamp {
+                      display: flex;
+                      align-items: center;
+                      gap: 24px;
+                      @media (max-width:499px) {
+                         flex-direction: column;
+                         align-items: unset;
+                      }
+                     
+
+                      .yourCamps {
+                         
+                          p {
+                              font-family: Cabin;
+                              font-size: 18px;
+                              font-weight: bold;
+                              font-stretch: normal;
+                              font-style: normal;
+                              line-height: normal;
+                              letter-spacing: normal;
+                              color: #b6b4b3;
+                              margin-block-start: unset;
+                              margin-block-end: unset;
+                          }
+
+                          h1 {
+                              font-family: FjallaOne;
+                              font-size: 36px;
+                              font-weight: normal;
+                              font-stretch: normal;
+                              font-style: normal;
+                              line-height: 1.24;
+                              letter-spacing: normal;
+                              color: #3c3c3c;
+                              margin-block-start: unset;
+                              margin-block-end: unset;
+                              white-space: nowrap;
+
+                              @media (max-width:499px) {
+                                  font-size: 28px;
+                              }
+                          }
+
+
+                      }
+
+                      .postCamp {
+                          display: flex;
+                          gap: 10px;
+                          flex-wrap: wrap;
+                          align-self: flex-end;
+                          @media (max-width:499px) {
+                              align-self: unset;
+
+                              }
+                       
+
+                          button {
+                              font-family: 'Cabin';
+                              font-style: normal;
+                              font-weight: 700;
+                              font-size: 16px;
+                              line-height: 19px;
+                              text-align: center;
+                              color: #FFFFFF;
+
+                              @media (max-width:499px) {
+                              width: 100% !important;
+                              height: 40px !important;
+                                  font-size: 14px;
+
+                              }
+                          }
+                      }
+                  }
+              }
+
+              .campTopRight {
+                  display: flex;
+                  align-items: center;
+                  margin-right: 20px;
+                  gap: 10px;
+                  flex-direction: row;
+
+                  @media (max-width:1200px) {
+                      flex-direction: column;
+                      gap: unset;
+                  }
+
+                  @media (max-width:800px) {
+                      position: absolute;
+                      right: 0;
+                      bottom: -30px;
+                      gap: 10px;
+                      flex-direction: row;
+                  }
+
+                  p {
+                      font-family: Cabin;
+                      font-size: 18px;
+                      font-weight: bold;
+                      font-stretch: normal;
+                      font-style: normal;
+                      line-height: normal;
+                      letter-spacing: normal;
+                      text-align: center;
+                      color: #3c3c3c;
+                      white-space: nowrap;
+                      margin-block-start: unset;
+                      margin-block-end: unset;
+                  }
+
+                  select {
+                      border: none;
+                      color: #ec6f00;
+                      font-size: 18px;
+                  }
+              }
+
+          }
+      }
+
+      .campsRight {
+          width: 24%;
+          border: 1px solid #DDDDDD;
+          border-radius: 8px;
+
+          @media (max-width:800px) {
+              display: none;
+          }
+      }
+  }
+}
+
+
+
+
+.campCard {
+  display: flex;
+  margin: 50px 0;
+
+  @media (max-width:800px) {
+      width: 100%;
+  }
+}
+
+.pagination_container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  // position: relative;
+  margin: 35px 0;
+
+  @media (max-width:767px) {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .pagination_details {
+    // position: absolute;
+    font-family: "Cabin";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #565656;
+    // left: 0;
+
+    span {
+      margin: 0 5px;
+      cursor: pointer;
+      color: rgba(182, 180, 179, 1);
+    }
+
+    .selected {
+      color: #ec6f00;
+    }
+  }
+}

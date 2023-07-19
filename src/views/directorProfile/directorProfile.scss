@@ -1,0 +1,305 @@
+.directorProfile {
+    display: flex;
+
+    .directSidebar {
+        width: 224px;
+
+        @media (max-width:767px) {
+            display: none;
+        }
+    }
+
+    .mobileSidebar {
+        display: none;
+    }
+
+    .mobileSidebarActive {
+        position: absolute;
+        z-index: 99;
+        height: 100vh;
+        width: 224px;
+        background: white;
+
+        @media(min-width:767px) {
+            display: none;
+        }
+    }
+
+    .directorHead_rightside {
+        width: calc(100% - 224px);
+
+        @media (max-width:767px) {
+            width: 100%;
+        }
+
+        .profileContent {
+            padding: 0 24px;
+            margin: 0 auto;
+            margin-bottom: 400px;
+            margin-top: 50px;
+            @media (max-width:767px) {
+                padding: 0 12px;
+            }
+           
+            .profilePicDivMain {
+                gap: 29px;
+
+                .profilePicDiv {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+                    .profilePicImg {
+                        width: 206px;
+                        height: 206px;
+                        border-radius: 50%;
+                        border: 6px solid #EC6F00;
+
+                        @media(max-width:899px) {
+                            width: 156px;
+                            height: 156px;
+                        }
+
+                        @media(max-width:499px) {
+                            width: 106px;
+                            height: 106px;
+                        }
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 50%;
+
+                        }
+                    }
+
+                    svg,
+                    p {
+                        color: #EC6F00
+                    }
+
+
+
+                    div {
+                        display: flex;
+                        align-items: center;
+                        gap: 5px;
+                    }
+
+                }
+
+                .profileName {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+
+                    h1 {
+                        font-family: 'Cabin';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #3C3C3C;
+                        margin-block-start: unset;
+                        margin-block-end: unset;
+
+                    }
+
+                    h2 {
+                        font-family: 'Fjalla One';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 40px;
+                        line-height: 62px;
+                        color: #3C3C3C;
+                        margin-block-start: unset;
+                        margin-block-end: unset;
+                        white-space: nowrap;
+
+                        @media(max-width:767px) {
+                            font-size: 20px;
+                        }
+                    }
+
+                    h3 {
+                        font-family: 'Cabin';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #B6B4B3;
+                        margin-block-start: unset;
+                        margin-block-end: unset;
+
+                    }
+                }
+
+
+            }
+          
+
+            .password_account {
+                display: flex;
+                gap: 8px;
+                justify-content: flex-end;
+
+                @media (max-width:767px) {
+                    flex-direction: column;
+                    align-items: flex-end;
+                    justify-content: center;
+                }
+
+                button {
+                    font-family: 'Cabin';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 19px;
+                    text-align: center;
+                    color: #EC6F00;
+
+                    @media (max-width:499px) {
+                        width: 100px !important;
+                        font-size: 10px;
+                        height: 30px !important;
+                    }
+                }
+            }
+
+            .details {
+                p {
+                    font-family: 'Cabin';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 29px;
+                    color: #565656;
+                }
+            }
+
+            .edit {
+                gap: 5px;
+
+                p {
+                    font-family: 'Cabin';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #EC6F00;
+                }
+            }
+
+            label {
+                font-family: 'Cabin';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 22px;
+                color: #B6B4B3;
+               
+            }
+            input{
+                border: 1px solid #B6B4B3;
+                border-radius: 6px;
+                height: 40px;
+                width: 100%; 
+                font-family: 'Cabin';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                color: #3C3C3C; 
+            }
+            textarea{
+                width: 100%;
+                border: 1px solid #B6B4B3;
+                border-radius: 6px;
+                font-family: 'Cabin';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                color: #3C3C3C;
+            }
+
+            p {
+                font-family: 'Cabin';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                color: #3C3C3C;
+            }
+
+            .save_cancel_btn {
+                button {
+                    font-family: 'Cabin';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 19px;
+                    text-align: center;
+
+                }
+            }
+            .security {
+                margin-top: 70px;
+
+                h1 {
+                    font-family: 'Cabin';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 29px;
+                    color: #565656;
+                }
+
+                .lastLogIn {
+                    h1 {
+                        font-family: 'Cabin';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 32px;
+                        color: #3C3C3C;
+                        margin-block-end: unset;
+                        margin-block-start: unset;
+
+                    }
+
+                    div {
+                        display: flex;
+                        align-items: center;
+                        gap: 8px;
+
+                        h2 {
+                            font-family: 'Cabin';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 32px;
+                            color: #979797;
+                            margin-block-end: unset;
+                            margin-block-start: unset;
+
+                        }
+
+                        h3 {
+                            font-family: 'Cabin';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 32px;
+                            color: #D0021B;
+                            margin-block-end: unset;
+                            margin-block-start: unset;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

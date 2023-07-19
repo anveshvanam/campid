@@ -1,0 +1,99 @@
+.resourcesMain {
+
+  .resourcesContent {
+    max-width: 1410px;
+    padding: 20px 0;
+
+    p {
+      font-family: Cabin;
+      font-size: 18px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 2;
+      letter-spacing: normal;
+      color: #3c3c3c;
+    }
+  }
+
+  .resources-for-main {
+    display: flex;
+    gap: 68px;
+    margin-top: 50px;
+    border-bottom: 1px solid #E4E4E4;
+    padding-bottom: 100px;
+
+    @media (max-width: 767px) {
+      flex-direction: column;
+      padding-bottom: 50px;
+    }
+
+    .resources-for-card {
+      max-width: 402px;
+
+
+
+      p {
+        width: 100%;
+        font-family: Cabin;
+        font-size: 32px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.13;
+        letter-spacing: normal;
+        color: #3c3c3c;
+        margin-block-start: unset;
+        margin-block-end: unset;
+        margin-bottom: 20px;
+      }
+    }
+
+    .resources-for-heading {
+      font-family: Cabin;
+      font-size: 24px;
+      font-weight: bold;
+      color: #ec6f00;
+      margin-top: 29px;
+      margin-bottom: 31px;
+    }
+
+    .resources-for-points {
+      display: flex;
+      gap: 17px;
+      margin-bottom: 22px;
+
+      svg {
+        width: 24px;
+        height: 30px;
+      }
+
+      p {
+        font-family: Cabin;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0;
+        // color: #3c3c3c;
+        text-align: left;
+        margin-block-start: unset;
+        margin-inline-end: unset;
+        align-self: center;
+
+        @media (max-width: 499px) {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  .joinCampIdComponent {
+    margin: 0 auto;
+    margin-bottom: 800px;
+    margin-top: 100px;
+    @media (max-width: 7679px) {
+      margin-bottom: 100px;
+      margin-top: 50px;
+
+    }
+  }
+}

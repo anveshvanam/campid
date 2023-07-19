@@ -1,0 +1,80 @@
+.sports-main {
+  .sports-head-block {
+    background: url(../../assets/images/campid-hero-sports.png) no-repeat center;
+    height: 214px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    h1 {
+      font-family: Fjalla One;
+      font-size: 50px;
+      line-height: 1.24;
+      color: #fff;
+      @media (max-width: 499px) {
+        font-size: 24px;
+      }
+    }
+    .main-container {
+      width: 100%;
+      @media (max-width: 499px) {
+        text-align: center;
+      }
+    }
+  }
+  .sports-description {
+    font-family: Cabin;
+    font-size: 18px;
+    line-height: 2;
+    color: #3c3c3c;
+    margin: 41px 0 26px;
+  }
+  .sports-cards-block {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #e4e4e4;
+    padding-bottom: 100px;
+
+    @media (max-width: 499px) {
+      justify-content: center;
+      padding-bottom: 50px;
+    }
+  }
+  .sports-card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    p {
+      position: absolute;
+      bottom: 14px;
+      font-family: Cabin;
+      font-size: 24px;
+      font-weight: bold;
+      text-align: center;
+      color: #fff;
+      margin: 0;
+    }
+    h6 {
+      position: absolute;
+      bottom: 42px;
+      font-family: Cabin;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+      color: #ffba00;
+      margin: 0;
+    }
+  }
+
+  .joinCampIdComponent{
+    margin-top: 75px;
+    margin-bottom: 200px;
+    @media (max-width:767px){
+      margin-top: 50px;
+      margin-bottom: 100px;
+   
+    }
+  }
+}

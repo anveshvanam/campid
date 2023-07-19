@@ -1,0 +1,170 @@
+
+.brandNameDiv {
+  height: 46px;
+  width:224px;
+}
+
+.headerContainer {
+  display: flex;
+  height: 64px;
+  justify-content: center;
+  align-items: center;
+  left: 24px;
+  right: 24px;
+top: 0;
+bottom: 0;
+  position: fixed;
+}
+
+.brandNameDiv img {
+  width: 100%;
+  height: 100%;
+}
+
+.headerTabs h1 {
+  font-family: "Cabin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 29px;
+  text-align: center;
+  color: #ec6f00;
+  white-space: nowrap;
+}
+
+.headerTabs {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 35%;
+}
+.headerTabs div{
+  cursor: pointer;
+}
+
+.selectSports_dropdown {
+  height: 48px;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.selectState_dropdown {
+  width: 15%;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+
+}
+
+.headerSearch {
+  height: 48px;
+  width: 15%;
+  padding-left: 10px;
+}
+
+.headerSearch button {
+  background: #ec6f00;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+
+
+.headerTabActive {
+  color: #000000 !important;
+}
+
+.unActiveHeaderTab {
+  color: #ec6f00;
+}
+
+.headerSearch button {
+  text-transform: unset;
+}
+
+.responsiveDropdown1 {
+  width: 80%;
+  margin-top: 10px;
+  height: 48px;
+}
+
+.responsiveDropdown2 {
+  width: 55%;
+  margin-top: 15px;
+  height: 48px;
+}
+
+.mobileSearch {
+  height: 48px !important;
+  width: 40% !important;
+  margin-top: 15px;
+  padding-left: 5%;
+
+}
+
+.mobileSearch button {
+  border-radius: 4px !important;
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+
+}
+
+@media (max-width: 767px) {
+  .headerContainer {
+    justify-content: space-between;
+  }
+
+  .brandNameDiv {
+    width: 200px !important;
+  }
+}
+@media (max-width:1000px) {
+  .brandNameDiv {
+    min-width: 200px !important;
+  }
+}
+@media (max-width: 900px) {
+  
+  .headerTabs h1 {
+    font-size: 16px !important;
+  }
+
+  .headerSearch {
+    width: 12.5%;
+  }
+
+  .selectState_dropdown {
+    width: 12.5%;
+  }
+
+  .headerTabs {
+    width: 45%;
+  }
+
+  .selectSports_dropdown {
+    width: 15%;
+
+  }
+}
+

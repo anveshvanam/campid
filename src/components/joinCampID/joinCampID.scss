@@ -1,0 +1,63 @@
+.joinCampIDDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .joinCampID {
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+      font-family: Fjalla One;
+      font-size: 50px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.24;
+      letter-spacing: normal;
+      text-align: center;
+      color: #3c3c3c;
+      margin-block-start: unset;
+      @media (max-width:767px){
+        font-size: 32px;
+      }
+    }
+
+    p {
+      font-family: Cabin;
+      font-size: 18px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 2;
+      letter-spacing: normal;
+      text-align: center;
+      color: #3c3c3c;
+      max-width: 930px;
+    }
+
+    .joinCampIDButton {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+
+      @media (max-width: 767px) {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      button {
+        font-family: 'Cabin';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+
+        @media (max-width: 499px) {
+          width:100% !important;
+          
+        }
+      }
+    }
+  }
+}

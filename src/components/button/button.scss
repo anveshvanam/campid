@@ -1,0 +1,21 @@
+.common-btn {
+  border-radius: 4px;
+  font-family: Cabin;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.common-btn-disabled {
+  opacity: 0.5;
+  cursor: auto;
+}

@@ -1,0 +1,413 @@
+/* camp id hero section */
+.campid-hero {
+  background: url(../../assets/images/campid-hero.png) no-repeat center;
+  height: 100%;
+  @media (max-width: 499px) {
+    background: url(../../assets/images/campid-hero-mb.png) no-repeat center;
+    background-size: cover;
+  }
+  .campid-hero-sub {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 81px 0 72px;
+    @media (max-width: 499px) {
+      padding: 21px 0 27px;
+    }
+  }
+  .campid-caption {
+    font-family: Fjalla One;
+    font-size: 50px;
+    line-height: 1.24;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    @media (max-width: 1599px) {
+      font-size: 42px;
+    }
+    @media (max-width: 1439px) {
+      font-size: 38px;
+      margin: 12px 0;
+    }
+    @media (max-width: 1319px) {
+      font-size: 35px;
+    }
+    @media (max-width: 499px) {
+      font-size: 24px;
+      line-height: 1.54;
+    }
+  }
+  .campid-hero-btns {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    margin-top: 30px;
+    margin-bottom: 78px;
+    @media (max-width: 499px) {
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+    button {
+      @media (max-width: 1599px) {
+        width: 350px !important;
+        height: 56px !important;
+        font-size: 22px;
+      }
+      @media (max-width: 499px) {
+        width: 254px !important;
+        height: 38px !important;
+        font-size: 18px;
+      }
+      @media (max-width: 300px) {
+        width:100% !important;
+      }
+    }
+  }
+  .campid-hero-link {
+    font-family: Cabin;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    @media (max-width: 499px) {
+      font-size: 18px;
+    }
+  }
+  .campid-hero-login {
+    display: flex;
+    justify-content: center;
+    margin-top: 31px;
+    @media (max-width: 499px) {
+      margin-top: 13px;
+    }
+    button {
+      @media (max-width: 1599px) {
+        width: 350px !important;
+        height: 56px !important;
+        font-size: 22px;
+      }
+      @media (max-width: 499px) {
+        width: 254px !important;
+        height: 38px !important;
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+/* why campid section */
+.why-campid-main {
+  text-align: center;
+  padding: 57px 0;
+  @media (max-width: 499px) {
+    padding: 32px 0;
+  }
+  .why-campid-heading {
+    font-family: Fjalla One;
+    font-size: 50px;
+    line-height: 1.24;
+    text-align: center;
+    color: #3c3c3c;
+    @media (max-width: 1599px) {
+      font-size: 42px;
+    }
+    @media (max-width: 1439px) {
+      font-size: 38px;
+      margin: 12px 0;
+    }
+    @media (max-width: 1319px) {
+      font-size: 35px;
+    }
+    @media (max-width: 499px) {
+      font-size: 44px;
+      line-height: 1.41;
+      margin: 0 0 14px 0;
+    }
+  }
+  .why-campid-detail {
+    font-family: Cabin;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #3c3c3c;
+    max-width: 879px;
+    margin: auto;
+    @media (max-width: 499px) {
+      font-size: 18px;
+      line-height: 2;
+    }
+  }
+  .why-detail-br {
+    @media (max-width: 499px) {
+      display: none;
+    }
+  }
+  .why-campid-watch {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    button {
+      @media (max-width: 499px) {
+        width: 255px !important;
+        height: 48px !important;
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+/* Camp Id For */
+.campid-for-main {
+  display: flex;
+  justify-content: center;
+  gap: 68px;
+  margin-top: 50px;
+  @media (max-width: 1599px) {
+    font-size: 42px;
+  }
+  @media (max-width: 1439px) {
+    font-size: 38px;
+    margin: 12px 0;
+  }
+  @media (max-width: 1319px) {
+    font-size: 35px;
+  }
+  @media (max-width: 499px) {
+    flex-direction: column;
+  }
+  .campid-for-card {
+    text-align: center;
+    width: 30%;
+    @media (max-width: 499px) {
+      width: auto;
+    }
+  }
+  .campid-for-heading {
+    font-family: Cabin;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #ec6f00;
+    margin-top: 29px;
+    margin-bottom: 31px;
+    @media (max-width: 499px) {
+      font-size: 22px;
+      margin-top: 20px;
+      margin-bottom: 22px;
+    }
+  }
+  .campid-for-points {
+    display: flex;
+    gap: 17px;
+    margin-bottom: 22px;
+    img {
+      width: 24px;
+      height: 30px;
+      margin-top: 8px;
+    }
+    p {
+      font-family: Cabin;
+      font-size: 21px;
+      font-weight: bold;
+      line-height: 1.9;
+      margin: 0;
+      color: #3c3c3c;
+      text-align: left;
+      @media (max-width: 1319px) {
+        font-size: 18px;
+        line-height: 1.7;
+      }
+      @media (max-width: 499px) {
+        font-size: 18px;
+      }
+    }
+  }
+}
+/* sports slider */
+.slider-main {
+  text-align: center;
+  margin-top: 100px;
+  padding: 0 18px;
+
+  
+  .slider-heading {
+    font-family: Fjalla One;
+    font-size: 50px;
+    line-height: 1.24;
+    text-align: center;
+    color: #3c3c3c;
+    @media (max-width: 1599px) {
+      font-size: 42px;
+    }
+    @media (max-width: 1439px) {
+      font-size: 38px;
+      margin: 12px 0;
+    }
+    @media (max-width: 1319px) {
+      font-size: 35px;
+    }
+    @media (max-width: 499px) {
+      font-size: 44px;
+    }
+  }
+  .slider-view-more {
+    font-family: Cabin;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    color: #ec6f00;
+    text-decoration: none;
+    @media (max-width: 1439px) {
+      font-size: 22px;
+    }
+    @media (max-width: 499px) {
+      font-size: 17px;
+    }
+  }
+  .slider-block {
+    margin-top: 42px;
+    display: flex;
+    gap: 58px;
+    overflow: scroll;
+    @media (max-width: 1439px) {
+      margin-top: 35px;
+      gap: 32px;
+    }
+    @media (max-width: 499px) {
+      gap: 20px;
+    }
+    div {
+      position: relative;
+      margin-bottom: 72px;
+      display: flex;
+      justify-content: center;
+      @media (max-width: 1899px) {
+        margin-bottom: 50px;
+      }
+      @media (max-width: 1599px) {
+        margin-bottom: 40px;
+      }
+    }
+    img {
+      width: 839px;
+      height: 353px;
+      @media (max-width: 1899px) {
+        width: 750px;
+        height: 325px;
+      }
+      @media (max-width: 1599px) {
+        width: 615px;
+        height: 265px;
+      }
+      @media (max-width: 1439px) {
+        width: 550px;
+        height: 240px;
+      }
+      @media (max-width: 1319px) {
+        width: 470px;
+        height: 220px;
+      }
+      @media (max-width: 499px) {
+        width: 301px;
+        height: 127px;
+      }
+    }
+    &::-webkit-scrollbar {
+      width: auto;
+      height: 12px;
+      @media (max-width: 499px) {
+        height: 8px;
+      }
+      &-track {
+        background-color: #fff;
+      }
+      &-thumb {
+        background-color: #b6b4b3;
+      }
+      &-track,
+      &-thumb {
+        border-radius: 14px;
+      }
+    }
+    p {
+      font-family: Cabin;
+      font-size: 32px;
+      font-weight: bold;
+      text-align: center;
+      color: #fff;
+      margin: 0;
+      bottom: 22px;
+      position: absolute;
+      @media (max-width: 499px) {
+        font-size: 18px;
+        bottom: 8px;
+      }
+    }
+  }
+}
+
+/* partners */
+.partners-main {
+  text-align: center;
+  margin-top: 72px;
+  background-color: rgba(239, 239, 239, 0.7);
+  padding: 31px 0px 30px;
+  @media (max-width: 499px) {
+    padding: 37px 10px 62px;
+  }
+  h1 {
+    font-family: Fjalla One;
+    font-size: 50px;
+    line-height: 1.24;
+    text-align: center;
+    color: #3c3c3c;
+    margin: 0 0 13px 0;
+    @media (max-width: 1599px) {
+      font-size: 42px;
+    }
+    @media (max-width: 1439px) {
+      font-size: 38px;
+      margin: 12px 0;
+    }
+    @media (max-width: 1319px) {
+      font-size: 35px;
+    }
+    @media (max-width: 499px) {
+      font-size: 44px;
+    }
+  }
+  h6 {
+    font-family: Cabin;
+    font-size: 24px;
+    line-height: 1;
+    text-align: center;
+    color: #565656;
+    margin: 0 0 22px 0;
+    @media (max-width: 499px) {
+      font-size: 18px;
+    }
+  }
+  .partners-logo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    @media (max-width: 499px) {
+      flex-direction: column;
+      gap: 48px;
+      .partner3{
+        img{
+          width: 200px;
+        }
+      }
+    }
+  }
+}
+.landingPage {
+  position: relative;
+  height: 100%;
+}

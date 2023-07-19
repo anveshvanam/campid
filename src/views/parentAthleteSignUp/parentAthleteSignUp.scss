@@ -1,0 +1,200 @@
+.athlete-signup-main {
+  text-align: center;
+  padding: 48px 0;
+  @media (max-width: 499px) {
+    padding: 48px 12px;
+  }
+  .athlete-signup-heading {
+    font-family: Fjalla One;
+    font-size: 50px;
+    line-height: 1.24;
+    text-align: center;
+    color: #3c3c3c;
+    max-width: 960px;
+    margin: auto;
+    @media (max-width: 1439px) {
+      font-size: 40px;
+    }
+    @media (max-width: 499px) {
+      font-size: 28px;
+    }
+  }
+  .brk-head {
+    display: none;
+    @media (max-width: 499px) {
+      display: block;
+    }
+  }
+  .athlete-signup-tabs {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 37px;
+    @media (max-width: 499px) {
+      gap: 16px;
+    }
+    span {
+      width: 208px;
+      height: 69px;
+      border-radius: 25px;
+      background-color: #e8e8e8;
+      font-family: Cabin;
+      font-size: 24px;
+      font-weight: bold;
+      color: #b6b4b3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      @media (max-width: 1439px) {
+        height: 56px;
+        font-size: 20px;
+      }
+      @media (max-width: 499px) {
+        height: 45px;
+        width: 165px;
+        font-size: 18px;
+        border-radius: 16px;
+      }
+    }
+    .athlete-active-tabs {
+      background-color: #ec6f00;
+      color: #fff;
+    }
+  }
+  .athlete-signup-form {
+    max-width: 450px;
+    margin: 39px auto;
+    .athlete-signup-input-group {
+      text-align: left;
+      font-family: Cabin;
+      font-size: 20px;
+      color: #3c3c3c;
+      margin-bottom: 32px;
+      @media (max-width: 1439px) {
+        font-size: 17px;
+        margin-bottom: 26px;
+      }
+      .zipcode-input {
+        width: 43%;
+        display: block;
+        @media (max-width: 499px) {
+          width:68%;
+         
+        }
+      }
+      @media (max-width: 499px) {
+        margin-bottom: 18px;
+        font-size: 18px;
+       
+      }
+      .selected-email {
+        font-family: Cabin;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 1.8;
+        color: #b6b4b3;
+        margin: 6px 0 0 0;
+      }
+      .pass-labels {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .show-lable {
+          font-family: Cabin;
+          font-size: 14px;
+          font-weight: bold;
+          color: #ec6f00;
+          cursor: pointer;
+        }
+        .confirm-lable {
+          font-family: Cabin;
+          font-size: 14px;
+          font-weight: bold;
+          color: #07af1b;
+          display: flex;
+          align-items: center;
+          gap: 4px;
+        }
+      }
+      .pass-requrements {
+        .pass-requrements-head {
+          font-family: Cabin;
+          font-size: 14px;
+          font-weight: bold;
+          line-height: 2.14;
+          color: #4c4c4c;
+          margin: 8px 0;
+        }
+        .pass-requrements-list {
+          display: flex;
+          align-items: center;
+          gap: 6px;
+          margin: 4px 0;
+          font-family: Cabin;
+          font-size: 12px;
+          line-height: 2.5;
+        }
+      }
+    }
+    input {
+      width: 97%;
+      margin-top: 12px;
+      height: 56px;
+      border-radius: 6px;
+      border: solid 1px #b6b4b3;
+      padding: 0 8px;
+      font-size: 20px;
+      color: #3c3c3c;
+      @media (max-width: 1439px) {
+        height: 38px;
+      }
+      @media (max-width: 499px) {
+        width: 95%;
+        height: 40px;
+        margin-top: 8px;
+      }
+    }
+  }
+  .athlete-btn-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 31px;
+    padding-bottom: 89px;
+    margin-top: 79px;
+    border-bottom: 1px solid #e4e4e4;
+    // padding-bottom: 72px;
+    // padding: 0 18px;
+
+    @media (max-width: 499px) {
+      flex-direction: column-reverse;
+      gap: 15px;
+      padding-bottom: 60px;
+
+    }
+    button {
+      @media (max-width: 1439px) {
+        width: 400px !important;
+        height: 48px !important;
+        font-size: 20px;
+      }
+      @media (max-width: 499px) {
+        width: 100% !important;
+        height: 38px !important;
+        font-size: 18px;
+      }
+    }
+  }
+  .other-signup-main {
+    margin-bottom: 800px;
+    @media (max-width: 499px) {
+      margin-bottom: 100px;
+    }
+  }
+}
+.error {
+  color: #ff0000;
+  font-size: 16px;
+  font-family: Cabin;
+}

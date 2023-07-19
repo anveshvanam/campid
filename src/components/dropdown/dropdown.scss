@@ -1,0 +1,52 @@
+.search-item-future {
+  padding-left: 42px !important;
+  .MuiTypography-root {
+    font-family: Cabin;
+    font-size: 20px;
+    color: #b6b4b3;
+  }
+}
+.search-menu-item {
+  padding-left: 10px !important;
+  .MuiTypography-root {
+    font-family: Cabin;
+    font-size: 20px;
+    color: #ec6f00;
+  }
+}
+.search-item-future,
+.search-menu-item {
+  .MuiButtonBase-root {
+    padding: 0;
+    margin-right: 8px;
+  }
+  svg,
+  svg * {
+    fill: #ec6f00;
+  }
+}
+.input_Label {
+  font-family: 'Cabin'!important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px !important;
+  line-height: unset !important;
+  display: flex;
+  align-items: center;
+  color: #B6B4B3 !important;
+  line-height: unset !important;
+  @media(max-width:1200px){
+    font-size: 14px !important;
+
+  }
+}
+.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #B6B4B3;
+}
+

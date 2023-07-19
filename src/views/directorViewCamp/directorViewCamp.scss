@@ -1,0 +1,586 @@
+.directorViewCamp {
+    display: flex;
+
+    .directorSidebarDiv {
+        width: 224px;
+
+        @media(max-width:767px) {
+            display: none;
+        }
+    }
+
+    .mobileSidebar {
+        display: none;
+    }
+
+    .mobileSidebarActive {
+        position: absolute;
+        z-index: 99;
+        height: 100vh;
+        width: 224px;
+        background: white;
+
+        @media(min-width:767px) {
+            display: none;
+        }
+    }
+
+    .directorRightSide {
+        width: calc(100% - 224px);
+
+        @media(max-width:767px) {
+            width: 100%;
+        }
+
+        .campDetails {
+            padding: 0 24px;
+            margin: 0 auto;
+
+            @media(max-width:767px) {
+                padding: 0 12px;
+
+            }
+
+            .campDetails_registration {
+                display: flex;
+                justify-content: space-between;
+                position: relative;
+
+                .campDetails_left {
+
+
+                    @media (max-width:1239px) {
+                        width: 100%;
+                    }
+
+
+                    .status {
+                        display: flex;
+                        position: relative;
+                        margin-top: 24px;
+                        width: 735px;
+                        height: 34px;
+
+                        @media (max-width:1239px) {
+                            width: 100%;
+
+                        }
+
+                        @media (max-width:499px) {
+                            width: 100%;
+                            flex-direction: column;
+                            height: unset;
+                        }
+
+                        button {
+                            font-size: 14px;
+                            position: absolute;
+                            width: calc(100% / 3) !important;
+                            border: none !important;
+
+                            @media (max-width:499px) {
+                                position: unset;
+                                width: 100% !important;
+                                margin-bottom: 10px;
+
+                            }
+
+                            span {
+                                font-family: 'Cabin';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 14px;
+                                line-height: 34px;
+                            }
+                        }
+
+                        button:nth-child(1) {
+                            left: 0;
+                            z-index: 1;
+                            width: 34.33% !important;
+
+                            div {
+                                color: #07AF1B;
+                            }
+
+                            @media (max-width:499px) {
+                                width: 100% !important;
+
+                            }
+                        }
+
+                        button:nth-child(2) {
+                            left: 33.33%;
+                            width: 34.33% !important;
+
+                            div {
+                                color: #FFBA00;
+                            }
+
+                            @media (max-width:499px) {
+                                border-radius: 8px 8px 8px 8px !important;
+                                width: 100% !important;
+
+                            }
+                        }
+
+                        button:nth-child(3) {
+                            left: 66.66%;
+                            z-index: -1;
+
+                            div {
+                                color: #B6B4B3;
+                            }
+
+                            @media (max-width:499px) {
+                                border-radius: 8px 8px 8px 8px !important;
+                            }
+                        }
+
+                    }
+
+                    .ratings {
+                        display: flex;
+                        align-items: center;
+                        margin-top: 50px;
+
+                        h1 {
+                            font-family: Cabin;
+                            font-size: 18px;
+                            font-weight: bold;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: 1.89;
+                            letter-spacing: normal;
+                            color: #3c3c3c;
+                            margin-block-start: unset;
+                            margin-block-end: unset;
+                            margin-right: 5px;
+                        }
+
+                        img {
+                            height: 15px;
+                            width: 15px;
+                        }
+                    }
+
+                    p {
+                        font-family: 'Cabin';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 22px;
+                        color: #565656;
+                        margin-block-start: unset;
+                        margin-block-end: unset;
+                        margin-top: 7px;
+
+                        @media(max-width: 499px) {
+                            width: calc(100% - 175px);
+
+                        }
+                    }
+
+                    h1 {
+                        font-family: 'Fjalla One';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 50px;
+                        line-height: 62px;
+                        color: #3C3C3C;
+                        margin-block-start: unset;
+                        margin-block-end: unset;
+
+                    }
+
+                    .campTitle {
+                        @media(max-width: 900px) {
+                            font-size: 32px;
+
+                        }
+
+                        @media(max-width: 1239px) {
+                            width: calc(100% - 215px);
+
+                        }
+
+                        @media(max-width: 499px) {
+                            width: calc(100% - 175px);
+                            font-size: 28px;
+
+                        }
+                    }
+
+                    .save_visitCamp {
+                        display: flex;
+                        margin-top: 7px;
+
+                        .save {
+                            display: flex;
+                            gap: 10px;
+                            align-items: center;
+                            padding-top: 20px !important;
+
+                            p {
+                                font-family: 'Cabin';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 18px;
+                                line-height: 22px;
+                                color: #EC6F00;
+                                margin-block-start: unset;
+                                margin-block-end: unset;
+
+                            }
+                        }
+
+                        div {
+                            padding-top: 20px !important;
+
+                            h1 {
+                                font-family: 'Cabin';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 18px;
+                                line-height: 22px;
+                                color: #EC6F00;
+                                margin-block-start: unset;
+                                margin-block-end: unset;
+
+                            }
+                        }
+                    }
+
+                    .data_location_price {
+                        display: flex;
+                        margin-top: 7px;
+
+                        .date,
+                        .location,
+                        .price {
+                            display: flex;
+                            align-items: center;
+                            gap: 5px;
+                            width: 170px;
+                            padding-top: 20px !important;
+
+                            p {
+                                font-family: Cabin;
+                                font-size: 18px;
+                                font-weight: bold;
+                                font-stretch: normal;
+                                font-style: normal;
+                                line-height: normal;
+                                letter-spacing: normal;
+                                color: #ec6f00;
+                                margin-block-start: unset;
+                                margin-block-end: unset;
+                                white-space: nowrap;
+
+                                @media (max-width:499px) {
+                                    font-size: 14px;
+                                }
+
+                            }
+                        }
+                    }
+
+                    .campType_details {
+                        display: flex;
+                        margin-top: 15px;
+
+                        div {
+                            width: 170px !important;
+                            padding-top: 20px !important;
+
+                            h1 {
+                                font-family: 'Cabin';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 16px;
+                                line-height: 19px;
+                                color: #B6B4B3;
+                                margin-block-start: unset;
+                                margin-block-end: unset;
+                            }
+
+                            h2 {
+                                font-family: 'Cabin';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 19px;
+                                color: #3C3C3C;
+                                margin-block-start: unset;
+                                margin-block-end: unset;
+
+                            }
+                        }
+                    }
+                }
+
+                .campDetails_right {
+                    width: 215px;
+                    height: 175px;
+                    background: #F8F8F8;
+                    border: 1px solid #EDEDED;
+                    box-shadow: 0px 2px 2px rgba(199, 199, 199, 0.25);
+                    border-radius: 0px 0px 10px 10px;
+
+
+                    @media (max-width:1239px) {
+                        position: absolute;
+                        right: 0;
+                        top: 70px;
+                        width: 175px;
+                        height: auto;
+
+                    }
+
+                    @media (max-width:499px) {
+                        width: 120px;
+                        top: 160px;
+                    }
+
+                    p {
+                        font-family: 'Cabin';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 22px;
+                        text-align: center;
+                        color: #07AF1B;
+                        margin-block-end: unset;
+
+                        @media (max-width:499px) {
+                            font-size: 14px;
+                        }
+                    }
+
+                    h1 {
+                        font-family: 'Cabin';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 40px;
+                        line-height: 49px;
+                        text-align: center;
+                        color: #EC6F00;
+                        margin-block-start: unset;
+
+                        @media (max-width:1000px) {
+                            font-size: 30px;
+                        }
+
+                        @media (max-width:499px) {
+                            font-size: 14px;
+                        }
+                    }
+
+                    button {
+                        font-family: 'Cabin';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 19px;
+                        display: flex;
+                        align-items: center;
+                        text-align: center;
+                        color: #FFFFFF;
+                        margin: 0 auto;
+                        margin-bottom: 10px;
+
+                        @media (max-width:499px) {
+                            height: 30px !important;
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+
+            .campDescription {
+                margin-top: 50px;
+
+                p {
+                    font-family: 'Cabin';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #3C3C3C;
+                }
+            }
+
+            .campsImagesDiv {
+
+                .campsImages {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 2px;
+
+                    div {
+                        img {
+                            height: 100%;
+                            width: 100%;
+                        }
+                    }
+                }
+
+                button {
+                    margin-top: 20px;
+                    font-size: 16px;
+
+                    @media (max-width:767px) {
+                        width: 100% !important
+                    }
+                }
+            }
+        }
+
+        .contact_map_Container {
+            padding: 0 24px;
+            margin: 30px auto;
+
+            @media (max-width:767px) {
+                padding: 0 12px;
+            }
+
+            .contact {
+                h1 {
+                    font-family: 'Cabin';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 29px;
+                    color: #B6B4B3;
+                }
+
+                h2 {
+                    font-family: 'Cabin';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 34px;
+                    color: #EC6F00;
+                    margin-block-start: unset;
+                    margin-block-end: unset;
+                }
+
+                h3 {
+                    font-family: 'Cabin';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #3C3C3C;
+                    margin-block-start: unset;
+
+                }
+
+                h4 {
+                    font-family: 'Cabin';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #EC6F00;
+                    margin-block-start: unset;
+                    margin-block-end: 10px;
+
+                    svg {
+                        margin-right: 7px;
+                    }
+                }
+            }
+
+            .map {
+                div {
+                    width: 100%;
+                    height: 100%;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;
+                    }
+                }
+
+            }
+        }
+
+        .postReview_Reviews_Container {
+            margin: 0 auto;
+            padding: 0 24px;
+
+            @media (max-width:767px) {
+                padding: 0 12px;
+            }
+
+            .postReview {
+                textarea {
+                    width: 100%;
+                    border: 1px solid #B6B4B3 !important;
+                    border-radius: 6px !important;
+                }
+
+                h1 {
+                    font-family: 'Cabin';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 34px;
+                    color: #B6B4B3;
+
+                    @media (max-width:767px) {
+                        font-size: 16px;
+                    }
+
+                }
+
+                .reviewList {
+                    h1 {
+                        font-family: 'Cabin';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 34px;
+                        color: #B6B4B3;
+
+                        @media (max-width:767px) {
+                            font-size: 14px;
+                        }
+                    }
+
+                    svg {
+                        margin-right: 5px;
+                    }
+                }
+
+                .submitReview {
+                    margin-top: 40px;
+
+                    button {
+                        width: 100% !important;
+                        margin-bottom: 20px;
+                        font-size: 16px;
+                        font-family: 'Cabin';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 19px;
+                        text-align: center;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+
+            .reviewsDiv {
+                .reviewsContainer {
+                    margin-bottom: 20px;
+                }
+            }
+
+
+        }
+    }
+
+}

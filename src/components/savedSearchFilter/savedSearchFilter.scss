@@ -1,0 +1,90 @@
+.saved {
+    div {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 20px;
+
+        svg {
+            font-family: 'Font Awesome 6 Free';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 32px;
+            color: #3C3C3C;
+        }
+
+        h1 {
+            font-family: 'Fjalla One';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 40px;
+            color: #3C3C3C;
+            margin-block-start: unset;
+            margin-block-end: unset;
+
+        }
+    }
+
+    p {
+        font-family: 'Cabin';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 45px;
+        color: #EC6F00;
+        margin-block-start: unset;
+        margin-block-end: unset;
+    }
+}
+
+.search {
+    h1 {
+        font-family: 'Fjalla One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 40px;
+        color: #3C3C3C;
+    }
+
+    ul {
+        list-style-type: none;
+        padding-inline-start: unset;
+
+        li {
+            font-family: 'Cabin';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            color: #EC6F00;
+        }
+    }
+}
+
+.filter {
+    h1 {
+        font-family: 'Fjalla One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 40px;
+        color: #3C3C3C;
+    }
+
+    ul {
+        list-style-type: none;
+        padding-inline-start: unset;
+
+        li {
+            font-family: 'Cabin';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            color: #EC6F00;
+        }
+    }
+}

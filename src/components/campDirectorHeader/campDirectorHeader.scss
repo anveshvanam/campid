@@ -1,0 +1,133 @@
+    .campDirectorHeader {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 24px;
+        height: 64px;
+
+        .logo_Menu {
+            display: flex;
+            width: 80%;
+
+            .logo {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    @media(max-width:787px) {
+                       width: 100px;                   
+                    }
+                    @media(max-width:910px) {
+                        width: 150px;
+                    } 
+                }
+            }
+
+            .menu {
+                display: flex;
+                margin-left: 20px;
+                justify-content: space-between;
+                width: 80%;
+
+                @media(max-width:910px) {
+                    gap: 5px;
+                    margin-left: 10px;
+                }
+                @media(max-width:787px) {
+                   flex-direction: column;
+                }
+                .menuItems {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    white-space: nowrap;
+
+                    @media(max-width:910px) {
+                        gap: 5px;
+                    }
+                    @media(max-width:787px) {
+                        flex-direction: column;
+                    }
+                    svg {
+                        
+                        
+                    @media(max-width:910px) {
+                        height: 16px;
+                        width: 12px;
+                    }
+                    }
+
+                    h1 {
+                        font-family: Cabin;
+                        font-size: 20px;
+                        font-weight: bold;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: normal;
+                        letter-spacing: normal;
+                        color: #ec6f00;
+
+                        @media(max-width:1200px) {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .user {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            width: 20%;
+            @media(max-width:787px) {
+                width: 90%;
+            }
+            .userName {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                h1,
+                h2 {
+                    font-family: Cabin;
+                    font-size: 10px;
+                    font-weight: bold;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    text-align: right;
+                    color: #ec6f00;
+                    margin-block-end: unset;
+                    margin-block-start: unset;
+                }
+
+
+            }
+
+            .avatar {
+
+                height: 41px;
+                width: 41px;
+
+                @media(max-width:1200px) {
+
+                    height: 31px;
+                    width: 31px;
+                }
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 50%;
+                    border: solid 5px #e0e0e0;
+                }
+            }
+            .toggleMenu{
+                margin-left: 20px;
+            }
+        }
+    }
+       
+    

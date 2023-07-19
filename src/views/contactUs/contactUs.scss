@@ -1,0 +1,111 @@
+.contactus-block {
+  display: flex;
+  margin-top: 66px;
+  border-bottom: 1px solid #e4e4e4;
+  padding-bottom: 75px;
+  @media (max-width: 1023px) {
+    flex-direction: column;
+  }
+  @media (max-width: 767px) {
+    padding-bottom: 50px;
+
+  }
+  .contactus-heading {
+    font-family: Cabin;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.13;
+    color: #3c3c3c;
+    margin: 0 0 8px 0;
+    @media (max-width: 1439px) {
+      font-size: 30px;
+    }
+  }
+  .contactus-description {
+    font-family: Cabin;
+    font-size: 18px;
+    line-height: 2;
+    color: #3c3c3c;
+    margin: 0 0 20px 0;
+    @media (max-width: 1439px) {
+      font-size: 16px;
+    }
+  }
+  .contactus-left {
+    width: 67%;
+    @media (max-width: 1023px) {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+  }
+  .contactus-form {
+    label {
+      display: block;
+      font-family: Cabin;
+      font-size: 20px;
+      color: #3c3c3c;
+      margin-bottom: 12px;
+      @media (max-width: 1439px) {
+        margin-bottom: 8px;
+        font-size: 17px;
+      }
+    }
+    input {
+      width: 450px;
+      border-radius: 6px;
+      border: solid 1px #b6b4b3;
+      height: 54px;
+      padding: 0 12px;
+      margin-bottom: 32px;
+      @media (max-width: 1439px) {
+        height: 38px;
+        margin-bottom: 24px;
+      }
+      @media (max-width: 1023px) {
+        width: 96%;
+      }
+    }
+    textarea {
+      width: 96%;
+      border-radius: 6px;
+      border: solid 1px #b6b4b3;
+      padding: 12px;
+    }
+    .max-char {
+      font-family: Cabin;
+      font-size: 14px;
+      color: #b6b4b3;
+    }
+    .btn-block {
+      display: flex;
+      justify-content: flex-end;
+      @media (max-width: 1023px) {
+        justify-content: center;
+        margin-top: 18px;
+      }
+      button {
+        @media (max-width: 1439px) {
+          height: 48px !important;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  .contact-info-detail {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: Cabin;
+    font-size: 18px;
+    line-height: 1.33;
+    color: #3c3c3c;
+  }
+}
+.joinCampIdComponent{
+  margin-top: 75px ;
+  margin-bottom: 400px ;
+  @media (max-width: 767px) {
+    margin-top: 50px ;
+    margin-bottom: 100px ;
+  }
+}

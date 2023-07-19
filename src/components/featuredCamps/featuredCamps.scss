@@ -1,0 +1,94 @@
+.featuredCamps {
+
+  .featuredCampsTitle {
+      display: flex;
+      justify-content: space-between;
+
+      h1 {
+          font-family: 'Fjalla One';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 36px;
+          line-height: 62px;
+          color: #3C3C3C;
+
+          @media (max-width:499px) {
+              font-size: 24px;
+          }
+      }
+
+      .circle {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          gap: 30px;
+
+          div {
+              height: 40px;
+              width: 40px;
+              border-radius: 50%;
+              background-color: #EC6F00;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              position: relative;
+
+              img {
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+              }
+
+              @media(max-width:499px) {
+                  height: 30px;
+                  width: 30px;
+              }
+          }
+      }
+  }
+
+  .featuredCampsList {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+
+      .featuredCampsListDiv {
+
+
+          width: 352px;
+
+          div {
+              width: 100%;
+
+              img {
+                  width: 100%;
+
+              }
+          }
+
+          h1 {
+              font-family: 'Cabin';
+              font-style: normal;
+              font-weight: 700;
+              font-size: 18px;
+              color: #EC6F00;
+              margin-block-end: unset;
+
+          }
+
+          p {
+              font-family: 'Cabin';
+              font-style: normal;
+              font-weight: 700;
+              font-size: 18px;
+              color: #B6B4B3;
+              margin-block-start: unset;
+              margin-block-end: unset;
+          }
+      }
+
+
+  }
+
+}

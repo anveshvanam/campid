@@ -1,0 +1,167 @@
+.termsAndConditions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+  .termsAndConditionsTopSection {
+    max-width: 1170px;
+
+    @media (max-width: 499px) {
+      width: 90%;
+    }
+
+    p {
+      width: 100%;
+      // height: 146px;
+      // margin: 48px 375px 0;
+      font-family: Fjalla One;
+      font-size: 50px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.24;
+      letter-spacing: normal;
+      text-align: center;
+      color: #3c3c3c;
+
+      @media (max-width: 499px) {
+        font-size: 28px;
+      }
+    }
+
+    .confirmation {
+      margin: 0 auto;
+      width: 80%;
+
+      h5 {
+        width: 100%;
+        // height: 70px;
+        // margin: 194px 375px 118px;
+        font-family: Cabin;
+        font-size: 24px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: center;
+        color: #3c3c3c;
+      }
+    }
+  }
+
+  .termsOfService {
+    max-width: 690px;
+
+    @media (max-width: 499px) {}
+
+    .email {
+      width: 100%;
+      height: 50px;
+      // padding: 6px 0 4px;
+      font-family: Cabin;
+      font-size: 20px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.8;
+      letter-spacing: normal;
+      color: #b6b4b3;
+      border: 1px solid #B6B4B3;
+      border-radius: 6px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .termsOfServiceContent {
+      border-radius: 26px;
+      border: solid 1px #e8e8e8;
+      border-radius: 26px;
+      // width: 689px;
+      height: 471px;
+      margin: 50px 0;
+      padding: 10px 16px;
+      overflow-y: scroll;
+
+      h5 {
+        font-family: Cabin;
+        font-size: 20px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.8;
+        letter-spacing: normal;
+        color: #3c3c3c;
+      }
+
+      p {
+        font-family: Cabin;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #3c3c3c;
+      }
+    }
+
+    .agree {
+      display: flex;
+      margin: 50px 0;
+      gap: 10px;
+
+      input {
+        border-radius: 4px;
+        border: solid 1px #979797;
+        background-color: #fff;
+      }
+
+      p {
+        font-family: Cabin;
+        font-size: 20px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.8;
+        letter-spacing: normal;
+        color: #3c3c3c;
+      }
+    }
+  }
+
+  .termsAndConditionButton {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50px 100px 50px;
+    padding: 0 36px;
+    width: 90%;
+    margin-bottom: 800px;
+    @media (max-width: 499px) {
+      flex-direction: column;
+      gap: 20px;
+      margin: 80px 0;
+      padding: 0 18px;
+
+      button {
+        height: 58px !important;
+        width: 100% !important;
+      }
+    }
+    button {
+      font-family: 'Cabin';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 29px;
+      text-align: center;
+    }
+
+    
+  }
+}

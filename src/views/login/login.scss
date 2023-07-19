@@ -1,0 +1,165 @@
+.login {
+  position: relative;
+  margin-bottom: 1000px;
+
+  @media (max-width: 999px) {
+    margin-bottom: 600px;
+  }
+
+  @media (max-width: 499px) {
+    margin-bottom: 400px;
+  }
+
+  .loginBackground {
+    height: 580px;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .loginForm {
+      position: absolute;
+      top: calc(50% + 67px);
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 690px;
+      border-radius: 6px;
+      box-shadow: 0 2px 4px 0 rgba(226, 226, 226, 0.5);
+      border: solid 1px #ececec;
+      background-color: #fff;
+
+      @media (max-width: 767px) {
+        width: 90%;
+      }
+
+     
+
+      h1 {
+        font-family: 'Fjalla One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 62px;
+        text-align: center;
+        color: #3C3C3C;
+        margin-block-start: 40px;
+        margin-block-end: 59px;
+
+        @media (max-width: 767px) {
+          font-size: 34px;
+          margin-block-start: 30px;
+        margin-block-end: 29px;
+        }
+      }
+
+      .loginInput {
+        display: flex;
+        flex-direction: column;
+        width: 450px;
+        margin: 0 auto;
+
+        @media (max-width: 767px) {
+          width: 95% !important;
+        }
+
+        label {
+          font-family: 'Cabin';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+
+          color: #3C3C3C;
+
+        }
+
+        input {
+          height: 48px;
+          margin: 12px 0 40px;
+          border-radius: 6px;
+          border: solid 1px #b6b4b3;
+
+       
+        }
+      }
+
+      p {
+        font-family: Cabin;
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2;
+        letter-spacing: normal;
+        text-align: center;
+        color: rgb(236, 111, 0);
+        margin-bottom: 56px !important;
+        @media (max-width:767px) {
+          margin-bottom: 36px !important;
+        }
+      }
+
+      button {
+        margin: 0 auto;
+
+        @media (max-width:767px) {
+          width: 95% !important;
+
+        }
+      }
+    }
+
+    .loginButton {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 24px;
+      position: absolute;
+      top: 640px;
+
+      left: 50%;
+    width: 90%;
+    right: 50%;
+    transform: translate(-50%, 0);
+
+      p {
+        font-family: 'Cabin';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #3C3C3C;
+        margin-block-start: 48px;
+        margin-block-end: 8px;
+        @media (max-width:767px) {
+          font-size: 16px;
+        }
+      }
+
+      button {
+        font-family: 'Cabin';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #EC6F00;
+
+      
+
+        @media (max-width:767px) {
+          width: 95% !important;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}

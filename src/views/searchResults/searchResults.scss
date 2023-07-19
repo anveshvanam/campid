@@ -1,0 +1,121 @@
+.searchResults {
+    display: flex;
+    justify-content: center;
+    //     padding: 0 257px;
+
+    //     @media (max-width:1659px) {
+
+    // padding: 0 150px;
+    //     }
+    //     @media (max-width:1439px) {
+
+
+    //     }
+    .searchResultsDiv {
+        padding-top: 40px;
+        @media (max-width: 1200px) {
+            padding: 0 50px;
+        }
+        @media (max-width: 767px) {
+            padding: 0 12px;
+        }
+        .content_info {
+            width: 100%;
+            text-align: start;
+            font-family: "Cabin";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+            color: #b6b4b3;
+        }
+
+        .search_filter_container {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+
+            div {
+                display: flex;
+            }
+
+            .search_filter_container_title {
+                font-family: "Fjalla One";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 36px;
+                line-height: 62px;
+                color: #3c3c3c;
+
+                @media (max-width:767px) {
+                    font-size: 24px;
+                }
+            }
+
+            .sortingMain {
+                @media (max-width:767px) {
+                    position: absolute;
+                    right: 0;
+                    top: 40px;
+                    // width: 100%;
+
+                }
+            }
+
+            .MuiOutlinedInput-notchedOutline {
+                border: 0;
+            }
+        }
+
+        .result_cards {
+            border-bottom: 1px solid #E4E4E4;
+            padding-bottom: 45px;
+            @media (max-width: 767px) {
+                padding-bottom: 20px;
+            }
+            .profilePic {
+                @media (max-width: 1439px) {
+                    width: unset;
+                    height: unset;
+                }
+
+                @media (max-width: 1076px) {
+                    width: 100%;
+                    height: auto;
+                }
+
+            }
+
+            .profileDetails {
+
+                width: 957px !important;
+
+
+                @media (max-width: 1439px) {
+                    width: 600px !important;
+                }
+
+                @media (max-width: 1076px) {
+                    width: 100% !important;
+                }
+
+                .date,
+                .location,
+                .price {
+
+                    @media (max-width: 767px) {
+                        width: unset;
+                    }
+                }
+            }
+            .pagination_container{
+                margin: 20px 0;
+            }
+        }
+        .join_camp_id{
+            padding-top: 40px;
+            padding-bottom: 80px;
+        }
+    }
+}
